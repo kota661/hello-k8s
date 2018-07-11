@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  table
+    tr
+      td(style={width: "30%"})
+        img(class="newappIcon" src="images/k8s-logo-L.png" alt="")
+      td
+        h1= title
+        h1= hostname
+        h1= ip
+        p(class='description') Application is running.
